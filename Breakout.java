@@ -281,7 +281,7 @@ public class Paddle extends Sprite implements Commons {
         i_width = image.getWidth(null);
         i_heigth = image.getHeight(null);
 
-        resetState();
+        resetState(); 
     }
 
     public void move() {
@@ -367,7 +367,7 @@ import javax.swing.JPanel;
 public class Board extends JPanel implements Commons {
 
     private Timer timer;
-    private String message = "Game Over";
+    private String message = " Game Over ";
     private Ball ball;
     private Paddle paddle;
     private Brick bricks[];
